@@ -15,6 +15,7 @@
    usage
    useMarkdown
    modules
+   graphviz
 
 
 索引和表格

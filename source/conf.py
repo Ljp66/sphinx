@@ -14,7 +14,7 @@ release = '0.1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser','sphinx.ext.autodoc']
+extensions = ['myst_parser', 'sphinx.ext.autodoc', 'sphinx.ext.graphviz']
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -44,6 +44,11 @@ latex_elements = {
 }
 
 # -- Options for apidoc output -------------------------------------------------
+
 import os
 import sys
 sys.path.append(os.path.abspath("..\\pymodule"))
+
+# -- Options for graphviz output -------------------------------------------------
+
+graphviz_output_format = 'svg'

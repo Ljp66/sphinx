@@ -1,8 +1,9 @@
+=========
 pymodule
 =========
 
 car module
------------
+===========
 
 .. automodule:: car
    :members:
@@ -10,7 +11,7 @@ car module
    :show-inheritance:
 
 dog module
-------------
+===========
 
 .. automodule:: dog
    :members:
