@@ -1,7 +1,18 @@
-car
-===
+pymodule
+=========
 
-.. toctree::
-   :maxdepth: 4
+car module
+-----------
 
-   car
+.. automodule:: car
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+dog module
+------------
+
+.. automodule:: dog
+   :members:
+   :undoc-members:
+   :show-inheritance:

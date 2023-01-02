@@ -46,4 +46,4 @@ latex_elements = {
 # -- Options for apidoc output -------------------------------------------------
 import os
 import sys
-sys.path.append(os.path.abspath("..\\car"))
+sys.path.append(os.path.abspath("..\\pymodule"))
