@@ -47,7 +47,7 @@ latex_elements = {
 
 import os
 import sys
-sys.path.append(os.path.abspath("..\\pymodule"))
+sys.path.append(os.path.abspath("pymodule"))
 
 # -- Options for graphviz output -------------------------------------------------
 
