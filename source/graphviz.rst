@@ -29,7 +29,7 @@ graphviz
 引用graphviz文件
 =================
 
-.. graphviz:: graphviz\时序图.dot
+.. graphviz:: graphviz\Sequence.dot
   :alt: 时序图
   :align: center
   :caption: 这是一个由graphviz绘制的时序图
