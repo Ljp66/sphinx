@@ -14,7 +14,7 @@ release = '0.1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = ['myst_parser','sphinx.ext.autodoc']
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -42,3 +42,8 @@ latex_elements = {
     \usepackage{ctex}
     ''',
 }
+
+# -- Options for apidoc output -------------------------------------------------
+import os
+import sys
+sys.path.append(os.path.abspath("..\\car"))
