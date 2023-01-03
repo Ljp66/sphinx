@@ -46,6 +46,7 @@ Then, write PlantUML text under the ``.. uml::`` directive:
 or specify path to an external PlantUML file:
 
 .. uml:: plantuml\mindmap.puml
+  
 
 You can specify ``height``, ``width``, ``scale`` and ``align``:
 

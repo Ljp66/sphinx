@@ -8,15 +8,14 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 目录
-   :name: msatertoc
+   :caption: main toctree
+   :name: mastertoc
    :numbered:
    
    usage
    useMarkdown
    modules
-   graphviz
-   plantuml
+   graph
 
 
 索引和表格
