@@ -55,5 +55,6 @@ graphviz_output_format = 'svg'
 
 # -- Options for plantuml output -------------------------------------------------
 
-plantuml = 'java -jar D:\\cmd-tools\\bin\\plantuml-1.2022.14.jar'
+plantuml = 'java -jar plantuml-1.2022.14.jar'
 plantuml_output_format = 'svg'
+plantuml_latex_output_format = 'pdf'
