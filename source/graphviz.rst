@@ -34,3 +34,25 @@ graphviz
   :align: center
   :caption: 这是一个由graphviz绘制的时序图
   :name: graphviz2
+
+无向图
+=======
+
+.. graph:: foo
+  :alt: 无向图
+  :align: center
+  :caption: 这是一个无向图
+  :name: graph
+
+  "bar" -- "baz";
+
+有向图
+=======
+
+.. digraph:: foo
+  :alt: 无向图
+  :align: center
+  :caption: 这是一个有向图
+  :name: digraph
+
+  "bar" -> "baz" -> "quux";
