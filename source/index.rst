@@ -16,6 +16,7 @@
    useMarkdown
    modules
    graphviz
+   plantuml
 
 
 索引和表格

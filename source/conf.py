@@ -14,7 +14,7 @@ release = '0.1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx.ext.autodoc', 'sphinx.ext.graphviz']
+extensions = ['myst_parser', 'sphinx.ext.autodoc', 'sphinx.ext.graphviz', 'sphinxcontrib.plantuml']
 
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -52,3 +52,8 @@ sys.path.append(os.path.abspath("pymodule"))
 # -- Options for graphviz output -------------------------------------------------
 
 graphviz_output_format = 'svg'
+
+# -- Options for plantuml output -------------------------------------------------
+
+plantuml = 'java -jar D:\\cmd-tools\\bin\\plantuml-1.2022.14.jar'
+plantuml_output_format = 'svg'
