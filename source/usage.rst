@@ -56,7 +56,9 @@ hello world
 当然，也可以使用内部链接，`表格`_ ;
 另一种内部链接 :ref:`list`。
 
-还可以链接图片 :ref:`image1`,可以链接python 代码 :ref:`python code`。
+还可以链接图片 :ref:`image1` ，可以链接python代码 :ref:`python code`，
+
+最后还可以链接到graphviz图 :ref:`graphviz1`。
 
 ..  [1] 这是注脚一。
 ..  [2] 这是注脚二。
