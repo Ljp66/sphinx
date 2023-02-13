@@ -2,9 +2,9 @@ graph
 =======
 
 .. toctree::
-    :maxdepth: 4
-    :caption: graph toctree
-    :name: subtoc
+   :maxdepth: 4
+   :caption: graph toctree
+   :name: subtoc
 
-    graphviz
-    plantuml
+   graphviz
+   plantuml

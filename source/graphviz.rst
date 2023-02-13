@@ -6,12 +6,12 @@ graphviz
 ==============
 
 .. graphviz::
-  :alt: 继承
-  :align: center
-  :caption: 这是一个由graphviz绘制的图
-  :name: graphviz1
+   :alt: 继承
+   :align: center
+   :caption: 这是一个由graphviz绘制的图
+   :name: graphviz1
 
-  digraph UML {
+   digraph UML {
       node[fontname = "LXGWWenKai-Regular", fontsize = 10, shape = record];
       edge[fontname = "LXGWWenKai-Regular", fontsize = 10, arrowhead = "empty"];
 
@@ -24,35 +24,35 @@ graphviz
       }
       Bus -> Car
       Bike -> Car
-  }
+   }
 
 引用graphviz文件
 =================
 
 .. graphviz:: graphviz\Sequence.dot
-  :alt: 时序图
-  :align: center
-  :caption: 这是一个由graphviz绘制的时序图
-  :name: graphviz2
+   :alt: 时序图
+   :align: center
+   :caption: 这是一个由graphviz绘制的时序图
+   :name: graphviz2
 
 无向图
 =======
 
 .. graph:: foo
-  :alt: 无向图
-  :align: center
-  :caption: 这是一个无向图
-  :name: graph
+   :alt: 无向图
+   :align: center
+   :caption: 这是一个无向图
+   :name: graph
 
-  "bar" -- "baz";
+   "bar" -- "baz";
 
 有向图
 =======
 
 .. digraph:: foo
-  :alt: 无向图
-  :align: center
-  :caption: 这是一个有向图
-  :name: digraph
+   :alt: 无向图
+   :align: center
+   :caption: 这是一个有向图
+   :name: digraph
 
-  "bar" -> "baz" -> "quux";
+   "bar" -> "baz" -> "quux";
